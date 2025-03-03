@@ -74,11 +74,14 @@ const MainNavigation = styled('nav')(() => ({
                         padding: '5px',
                     },
                 [`@media (max-width: 384px)`]: { 
-                            left: '0rem',
+                            left: '2rem',
                     alignItems: 'center',
                             top:" 35rem",
                             padding: '5px',
                         },
+                    [`@media (max-width: 350px)`]: { 
+                        left: '0rem',
+                    }
 }));
 
 const NavigationMenuList = styled(List)(() => ({
