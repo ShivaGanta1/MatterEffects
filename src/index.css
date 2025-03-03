@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media screen and (max-width: 425px) {
+  .onevideo {
+    width: 100% !important;
+    height: auto !important; 
+  }
+} */
+
