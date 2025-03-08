@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Button, Box, Typography } from '@mui/material';
 import gsap from 'gsap';
+import Work from './Work';
 
 const Footer = () => {
   const wordTickerRef = useRef(null);
@@ -107,6 +108,7 @@ const Footer = () => {
           </a>
         </Typography>
       </Box>
+      {/* <Work/> */}
     </Box>
   );
 };

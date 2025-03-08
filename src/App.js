@@ -53,7 +53,7 @@ import Nav from './Nav';
 import Header from './Header';
 import HomepageShowreel from './HomeShowreel';
 import We from './We';
-import { Work } from '@mui/icons-material';
+
 import Let from './Let';
 import Open from './Open';
 import Trails from './Trails';
@@ -64,6 +64,14 @@ import Homelogos from './Homelogos';
 import { Box } from '@mui/material';
 import { useEffect, useRef } from 'react'; 
 import { gsap, ScrollTrigger } from 'gsap/all'; 
+import Page from './Page';
+import WorkGridComponent from './Work';
+import Work from './Work';
+import Imge from './Imge';
+import Physics from './Physics';
+import TimeScale from './TimeScale';
+import New from './New';
+import ChainsEffect from './Chain';
 
 gsap.registerPlugin(ScrollTrigger); 
 
@@ -86,31 +94,34 @@ function App() {
 
   return (
     <div  
-// style={{backgroundColor:'#f2f2e9'}}
+// style={{backgroundColor:'navy'}}
 >
-
+{/* 
       <Header/>
       <Nav/>
       <Box ref={boxSectionRef}> 
       <HomepageShowreel/>
 
-      <We/>
+      <We/> */}
       {/* <Homelogos/> */}
-      <Open/>
+{/*       <Open/>
       </Box>
       <TwoVideos/>
-      <Trails/>
-      {/* <Work/> */}
-      <Let/>
-<Box sx={{ 
-  // position: "relative", height: "200vh", 
-   }}>
+      <Trails/> */}
+      <Work/>
+<Imge/>
+<TimeScale/>
+<New/>
+<ChainsEffect/>
+{/* <Physics/> */}
+{/*       <Let/>
+
       <FeedSlider/>
       <Footer/>
-</Box>
-      <FooterInternationalContents/>
 
+      <FooterInternationalContents/> */}
 
+  {/* <Page/> */}
     </div>
   );
 }
