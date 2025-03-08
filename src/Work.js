@@ -97,7 +97,7 @@ Matter.World.add(world, mouseConstraint);
    
     const createMixedShapes = () => {
       const shapes = [];
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < 40; i++) {
         const x = Math.random() * window.innerWidth;
         const y = Math.random() * (window.innerHeight * 0.7) * 0.5; 
         const size = Math.random() * 50 + 20; 
